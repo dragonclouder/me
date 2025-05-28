@@ -26,8 +26,9 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: 评论区  # 修改为您注册的Disqus短域名
-
+disqus: utterances  # 保留配置开关
+github:
+  repo: dragonclouder/me
 # if you don't have any of social below, comment the line
 facebook: longyun.fang.14
 #twitter: mytwitter

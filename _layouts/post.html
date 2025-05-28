@@ -45,5 +45,14 @@ layout: page
 {% endif %}
 
 {% if site.disqus %}
-    {% include disqus.html %}
+    <section class="comments">
+        <script src="https://utteranc.es/client.js" 
+                repo="dragonclouder/me"
+                issue-term="pathname" 
+                label="comment"
+                theme="github-light" 
+                crossorigin="anonymous" 
+                async>
+        </script>
+    </section>
 {% endif %}
