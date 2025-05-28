@@ -4,9 +4,14 @@
 
         var disqus_shortname = '{{ site.disqus }}';
         var disqus_developer = 0;
+        var disqus_config = function () {  // 新增配置函数
+            this.language = "zh_CN";      // 强制指定中文界面
+        };
         (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            var dsq = document.createElement('script'); 
+            dsq.type = 'text/javascript'; 
+            dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js?lang=zh_CN'; // 添加语言参数
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     </script>
