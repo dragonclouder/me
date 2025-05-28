@@ -183,10 +183,12 @@ Do you want some videos? Youtube, Vimeo or Vevo? Copy the embed code and paste o
 **Example**
 
 {% highlight html %}
-<iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="310" 
+        src="https://www.youtube.com/embed/r7XhWUDj-Ts" 
+        frameborder="0" 
+        allowfullscreen> <!-- 补充缺失属性 -->
+</iframe>
 {% endhighlight %}
-
-<iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
 
 [1]: http://daringfireball.net/projects/markdown/
 [2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
