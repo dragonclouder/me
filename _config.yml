@@ -94,6 +94,15 @@ animation: true
 sass:
     sass_dir: _sass
     style: :compressed
+    
+plugins:
+  - jemoji
+  - jekyll-mentions
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
 
 gems:
   - jemoji
