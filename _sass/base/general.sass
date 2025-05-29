@@ -2,13 +2,9 @@ body, html
     font-size: 62.5%
 
 body
-    line-height: 1
-    font: 16px $fontSans
-    color: $alpha
-
-h1, h2, h3, h4
-    font-family: $fontSans
+    font: 16px $fontSans  // 确保直接使用变量（无需命名空间前缀）
     color: $beta
+    line-height: 1.6
     -webkit-font-smoothing: antialiased
     text-rendering: optimizeLegibility
 
